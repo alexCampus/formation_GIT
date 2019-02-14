@@ -5,6 +5,6 @@ if [ -n "$(git status --porcelain)" ]; then
 else
   git pull origin amend
   git reset HEAD^
-  git add src/
+  git add src/index.html
   git commit -m 'Oh I miss the image'
 fi
