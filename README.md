@@ -56,7 +56,7 @@ _N'hésitez pas à regarder la documentation de cette commande pour voir les nom
 
 ##### à faire par une personne du groupe
 
-Vous avez choisit le nom de votre projet, procédez maintenant au changement du titre de la page HTML ainsi que du texte "LOGO". Si vous le souhaitez, vous pouvez aussi changer l'image du logo
+Vous avez choisi le nom de votre projet, procédez maintenant au changement du titre de la page HTML ainsi que du texte "LOGO". Si vous le souhaitez, vous pouvez aussi changer l'image du logo
 
 - Enregistrez ces changements avec un commit.
 - Poussez ces changements sur Github.
@@ -108,7 +108,7 @@ Avant de passer à la suite, chaque personne doit avoir les pages de tous les au
 
 ## 3. Numéro de téléphone
 
-La page comprends des incohérences sur les numéros de téléphone présents dans la page.
+La page comprend des incohérences sur les numéros de téléphone présents dans la page.
 Le bon numéro de téléphone est celui présent dans le header.
 
 - Individuellement, modifiez le numéro de téléphone du footer, commitez et partagez.
