@@ -214,7 +214,7 @@ Ressources :
 
 * [Exercices Visuels](https://learngitbranching.js.org/)
 	* Main -> Séquence d’introduction : 1, 2 et 3
-	* Montée en puissance 1, 2 et 4  Déplacer le travail: 1
+	* Montée en puissance 1, 2 et 4
 	* Remote Push & Pull -- dépôts gits distants 
 * [Branche et Merge](http://alx.github.io/gitbook/3_usage_basique_des_branches_et_des_merges.html)
 
