@@ -144,7 +144,7 @@ Avant de passer à la suite, chaque personne doit avoir les commits de toutes le
 Si vous regardez à la racine du répertoire il y a un dossiers `bash-scripts` avec dedans deux scripts bash, nous allons l'éxécuter le script `oups.sh`:
 
 ```bash
-./scripts-bash/oups.sh
+./bash-scripts/oups.sh
 ```
 
 * Quel fichier a été modifié par le script ?
@@ -163,7 +163,7 @@ Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un ce
 Exécuter le script
 
 ```bash
-./scripts-bash/oups-oups.sh
+./bash-scripts/oups-oups.sh
 ```
 
 * Faire un git status, qu'observez vous ?
@@ -192,7 +192,7 @@ Parfois on peut faire de plus grosses erreurs :
 Executer le script `oups-oups-oups.sh` :
 
 ```shell
-./scripts-bash/oups-oups-oups.sh
+./bash-scripts/oups-oups-oups.sh
 ```
 
 * Visualiser votre historique, que s'est t-il passé ?
