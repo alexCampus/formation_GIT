@@ -28,7 +28,17 @@ Vous vous retrouvez donc avec autant de copies du repo que de personnes dans vot
 
 - Cette personne doit inviter individuellement chacune des personnes de son groupe afin que ces derniers puissent apporter des modifications au dépôt Github.
 
-- Une fois fait cloner le repository référent sur vos machines.
+- Une fois fait, cloner le repository référent sur vos machines.
+
+Chaque personne de l'ilôt doit compléter sur sa machine ce fichier en indiquant les réponses aux différentes questions posées.
+
+Afin d'éviter d'avoir des conflits entre vous sur ce fichier, chacun doit sur son poste exécuter cette commande ( après voir fait le clone et dans le répertoire du projet ) :
+
+```bash
+git update-index --assume-unchanged README.md
+```
+
+---
 
 Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
 
