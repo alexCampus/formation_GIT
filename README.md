@@ -10,7 +10,7 @@ Les sources contiennent un template de site ecommerce, celui ci est évidemment 
 
 Dans un premier temps, choisissez un nom pour votre site ecommerce.
 
-Pour le moment le code est hébergé sous le github du Campus. Nous voulons que chaque groupe ait une copie du github du Campus sur un github d'un membre de l'équipe.
+Pour le moment le code est hébergé sur mon Github. Nous voulons que chaque groupe ait une copie du repository sur un github d'un membre de l'équipe.
 
 Nous avons besoin pour celà de "forker" le repository.
 
@@ -37,12 +37,6 @@ Afin d'éviter d'avoir des conflits entre vous sur ce fichier, chacun doit sur s
 ```bash
 git update-index --assume-unchanged README.md
 ```
-
----
-
-Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
-
-> Votre réponse
 
 ### 1.2 Découverte du repository crée
 
@@ -110,9 +104,6 @@ Faites une page simple, mais contenant au minimum :
 
 * Procédez à ces deux commits, mettez des messages explicites pour différencier vos travaux. Si vous mettez "Ajout d'une page", on aura 3 ou 4 messages de commit similaires. Ce qui est néfaste pour l'historique.
 
-* Quel est le concept en git qui nous permet de procéder ainsi ?
-
-> Votre réponse  
 
 Avant de passer à la suite, chaque personne doit avoir les pages de tous les autres présentes sur son poste en local.
 
@@ -161,7 +152,7 @@ Si vous regardez à la racine du répertoire il y a un dossiers `bash-scripts` a
 
 > Votre réponse et la commande git permettant de le savoir.
 
-Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un certain temps ), le code introduit une boucle infini faisant planter votre navigateur ( oups ). 
+Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un certain temps ), le code introduit une boucle infini faisant planter votre navigateur ( oups ).
 Ça arrive de faire des erreurs, on va utiliser git pour revenir en arrière :
 
 * Ecrasez les modifications faites sur ce fichier en utilisant git
@@ -189,7 +180,7 @@ Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
 Ressources :
 
-* [réécrire l'historique](https://git-scm.com/book/fr/v1/Utilitaires-Git-R%C3%A9%C3%A9crire-l-historique)
+* [réécrire l'historique](https://git-scm.com/book/fr/v2/Utilitaires-Git-R%C3%A9%C3%A9crire-l%E2%80%99historique)
 * [Vidéo sur la commande amend](https://www.youtube.com/watch?v=FdZecVxzJbk)
 
 
@@ -212,7 +203,7 @@ Executer le script `oups-oups-oups.sh` :
 **NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
 
 Ressources :
- 
+
 * [Quelle commande pour quelle erreur ?](https://fr.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
 
 
@@ -225,10 +216,10 @@ Ressources :
 * [Exercices Visuels](https://learngitbranching.js.org/)
 	* Main -> Séquence d’introduction : 1, 2 et 3
 	* Montée en puissance 1, 2 et 4
-	* Remote Push & Pull -- dépôts gits distants 
+	* Remote Push & Pull -- dépôts gits distants
 * [Branche et Merge](http://alx.github.io/gitbook/3_usage_basique_des_branches_et_des_merges.html)
 
-	
+
 Résumé en une phrase l'intérêt des branches :
 
 > Votre réponse
@@ -259,7 +250,7 @@ Nous voulons remplacer la section "Another section if needed" par un formulaire 
 
 #### 1.3 Merge dans master
 
-Maintenant au niveau du groupe, merger toutes les branches dans master et publier la branche sous github. 
+Maintenant au niveau du groupe, merger toutes les branches dans master et publier la branche sous github.
 
 * Vous devez merger dans master la branche de l'autre sous groupe afin de vous entrainer à manipuler les branches.
 
